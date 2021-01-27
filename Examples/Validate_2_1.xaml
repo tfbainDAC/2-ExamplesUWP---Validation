@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="Examples.Validate_2_1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Examples"
+    xmlns:extensions="using:Microsoft.Toolkit.Uwp.UI.Extensions"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel Orientation="Vertical" Width="300px" >
+            <TextBlock Text="Follows Tutorial 2 1 Validation"
+                   TextWrapping="WrapWholeWords" FontSize="18" Margin="80 0 0 20"/>
+             <TextBox Header="textbox regex property ensures the first character is a number, the Validation mode FORCED will clear the textbox after the textbox looses focus if the first character is not a number "
+                 extensions:TextBoxRegex.Regex ="^[0-9]"
+                 extensions:TextBoxRegex.ValidationMode="Forced"/>
+        </StackPanel>
+    </Grid>
+</Page>

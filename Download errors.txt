@@ -1,0 +1,34 @@
+﻿Sorry, there was a problem downloading some files from OneDrive. Please try again.
+
+db.lock - https://onedrive.live.com/?cid=606b4a6df4e06796&id=606B4A6DF4E06796%2160638&action=Download
+
+embed.resfiles - https://onedrive.live.com/?cid=606b4a6df4e06796&id=606B4A6DF4E06796%2160668&action=Download
+
+embed.resfiles.intermediate - https://onedrive.live.com/?cid=606b4a6df4e06796&id=606B4A6DF4E06796%2160667&action=Download
+
+Examples.csproj.CopyComplete - https://onedrive.live.com/?cid=606b4a6df4e06796&id=606B4A6DF4E06796%2160355&action=Download
+
+excluded.layout.resfiles - https://onedrive.live.com/?cid=606b4a6df4e06796&id=606B4A6DF4E06796%2160349&action=Download
+
+excluded.layout.resfiles.intermediate - https://onedrive.live.com/?cid=606b4a6df4e06796&id=606B4A6DF4E06796%2160348&action=Download
+
+resources.resfiles - https://onedrive.live.com/?cid=606b4a6df4e06796&id=606B4A6DF4E06796%2160326&action=Download
+
+resources.resfiles.intermediate - https://onedrive.live.com/?cid=606b4a6df4e06796&id=606B4A6DF4E06796%2160324&action=Download
+
+embed.resfiles - https://onedrive.live.com/?cid=606b4a6df4e06796&id=606B4A6DF4E06796%2160675&action=Download
+
+embed.resfiles.intermediate - https://onedrive.live.com/?cid=606b4a6df4e06796&id=606B4A6DF4E06796%2160674&action=Download
+
+Examples.csproj.CopyComplete - https://onedrive.live.com/?cid=606b4a6df4e06796&id=606B4A6DF4E06796%2160398&action=Download
+
+excluded.layout.resfiles - https://onedrive.live.com/?cid=606b4a6df4e06796&id=606B4A6DF4E06796%2160392&action=Download
+
+excluded.layout.resfiles.intermediate - https://onedrive.live.com/?cid=606b4a6df4e06796&id=606B4A6DF4E06796%2160391&action=Download
+
+resources.resfiles - https://onedrive.live.com/?cid=606b4a6df4e06796&id=606B4A6DF4E06796%2160370&action=Download
+
+resources.resfiles.intermediate - https://onedrive.live.com/?cid=606b4a6df4e06796&id=606B4A6DF4E06796%2160369&action=Download
+
+
+
