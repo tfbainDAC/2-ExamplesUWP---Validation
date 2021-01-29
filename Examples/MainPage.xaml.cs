@@ -29,7 +29,7 @@ namespace Examples
 
         private void Validate1_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Validate1));
+            this.Frame.Navigate(typeof(Validate_2_1_Bind));
         }
 
         private void Validate2_1_Click(object sender, RoutedEventArgs e)

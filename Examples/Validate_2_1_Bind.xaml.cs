@@ -20,9 +20,9 @@ namespace Examples
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Validate1 : Page
+    public sealed partial class Validate_2_1_Bind : Page
     {
-        public Validate1()
+        public Validate_2_1_Bind()
         {
             this.InitializeComponent();
         }

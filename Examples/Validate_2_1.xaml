@@ -10,7 +10,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <StackPanel Orientation="Vertical" Width="300px" >
+        <StackPanel Orientation="Vertical" Width="800px" >
             <TextBlock Text="Follows Tutorial 2 1 Validation"
                    TextWrapping="WrapWholeWords" FontSize="18" Margin="80 0 0 20"/>
              <TextBox Header="textbox regex property ensures the first character is a number, the Validation mode FORCED will clear the textbox after the textbox looses focus if the first character is not a number "
