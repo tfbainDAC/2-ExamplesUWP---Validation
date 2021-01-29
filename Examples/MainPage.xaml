@@ -9,12 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <StackPanel Orientation="vertical" VerticalAlignment="Center" >
-            <Button x:Name ="Validate2_1" Content="2_1 Validation" Click="Validate2_1_Click" HorizontalAlignment="Stretch" />
-            <Button x:Name="Validate1" Content="Further Validatation" Click="Validate1_Click" HorizontalAlignment="Stretch" />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
+        <StackPanel Grid.Column="1"  Orientation="vertical" VerticalAlignment="Center" Margin="100" >
+            <Button x:Name ="Validate2_1" Content="2_1 Validation" Click="Validate2_1_Click" HorizontalAlignment="Stretch" Background="Azure" />
+            <Button x:Name="Validate2_1_Bind" Content="Further Validatation" Click="Validate2_1_Bind_Click" HorizontalAlignment="Stretch" />
         </StackPanel>
-  
-
     </Grid>
 </Page>

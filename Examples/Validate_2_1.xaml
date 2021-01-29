@@ -10,12 +10,36 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <StackPanel Orientation="Vertical" Width="800px" >
-            <TextBlock Text="Follows Tutorial 2 1 Validation"
-                   TextWrapping="WrapWholeWords" FontSize="18" Margin="80 0 0 20"/>
-             <TextBox Header="textbox regex property ensures the first character is a number, the Validation mode FORCED will clear the textbox after the textbox looses focus if the first character is not a number "
+        <StackPanel Orientation="Vertical" Width="800px" Background="GhostWhite" >
+            <TextBlock Text="Follows Tutorial 2 1 Validation.  Using TextBoxRegex"
+                   TextWrapping="WrapWholeWords" FontSize="18" Margin="0 30 0 20"/>
+            <TextBox Header="1. textbox regex property ensures the first character is a number, the Validation mode FORCED will clear the textbox after the textbox looses focus if the first character is not a number "
                  extensions:TextBoxRegex.Regex ="^[0-9]"
                  extensions:TextBoxRegex.ValidationMode="Forced"/>
+            <TextBox Header="2. textbox regex property ensures the first character is a number, the Validation mode Dynamic will not allow the first character to be anything but a number "
+                 extensions:TextBoxRegex.Regex ="^[0-9]"
+                 extensions:TextBoxRegex.ValidationMode="Dynamic"/>
+            <TextBox Header="3. textbox regex property ensures all characters entered must be a number, the Validation mode Dynamic will not allow entry of anything but a number, * allows for zero characters to be entered "
+                 extensions:TextBoxRegex.Regex ="^[0-9]*$"
+                 extensions:TextBoxRegex.ValidationMode="Dynamic"/>
+            <TextBox Header="4. textbox regex property ensures all characters entered must be a number, the Validation mode Dynamic will not allow the first character to be anything but a number + states at least one number must be entered "
+                 extensions:TextBoxRegex.Regex ="^[0-9]+$"
+                 extensions:TextBoxRegex.ValidationMode="Dynamic"/>
+            <TextBox Header="5. textbox regex property ensures only A-Z in upper or lower case can be entered, the Validation mode Dynamic will stop entry of any other character. "
+                 extensions:TextBoxRegex.Regex ="^[A-Za-z]*$"
+                 extensions:TextBoxRegex.ValidationMode="Dynamic"/>
+            <TextBox Header="6. textbox regex property ensures only A-Z in upper or lower case can be entered, the Validation mode Dynamic will stop entry of any other character. "
+                 extensions:TextBoxRegex.Regex ="^[A-Za-z]*$"
+                 extensions:TextBoxRegex.ValidationMode="Dynamic"/>
+            <TextBox Header="7. textbox regex property ensures valid email format can be entered, the Validation mode Forced will clear entry on loss of focus if invalid. "
+                 extensions:TextBoxRegex.ValidationType ="Email"
+                 extensions:TextBoxRegex.ValidationMode="Forced"/>
+            <TextBox Header="8. textbox regex property ensures valid phoneno format can be entered, allows for format +447877425432 or 07877425432, the Validation mode Forced will clear entry on loss of focus if invalid. "
+                 extensions:TextBoxRegex.ValidationType ="PhoneNumber"
+                 extensions:TextBoxRegex.ValidationMode="Forced"/>
+            <TextBox Header="9. textbox regex property ensures only decimal format can be entered, the Validation mode Dynamic will stop entry of any other character. "
+                 extensions:TextBoxRegex.ValidationType ="Decimal"
+                 extensions:TextBoxRegex.ValidationMode="Dynamic"/>
         </StackPanel>
     </Grid>
 </Page>

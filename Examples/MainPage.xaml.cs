@@ -27,7 +27,7 @@ namespace Examples
             this.InitializeComponent();
         }
 
-        private void Validate1_Click(object sender, RoutedEventArgs e)
+        private void Validate2_1_Bind_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Validate_2_1_Bind));
         }
